@@ -2,9 +2,10 @@
   <form class="search">
     <ion-select
       class="selectionList"
-      placeholder="Select One"
+      placeholder="Select Genre"
       @ionChange="handleChange"
     >
+      <ion-select-option value="">All Genre</ion-select-option>
       <ion-select-option v-for="g in genres" :key="g.code">{{
         g.name
       }}</ion-select-option>
