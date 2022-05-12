@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Movie Appication</string>
+    <string name="title_activity_main">Movie Appication</string>
+    <string name="package_name">com.mkw.movie</string>
+    <string name="custom_url_scheme">com.mkw.movie</string>
+</resources>

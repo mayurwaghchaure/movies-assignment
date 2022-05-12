@@ -1,0 +1,6 @@
+{
+	"appId": "com.mkw.movie",
+	"appName": "Movie Appication",
+	"webDir": "public",
+	"bundledWebRuntime": false
+}
