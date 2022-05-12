@@ -100,29 +100,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-ion-toolbar {
-  --border-style: none;
-  --background: #373b5e;
-  --color: white;
-  --min-height: 8rem;
-  --stripe: #373b5e;
-  --bg: #3e4368;
-  --background: transparent;
-  text-align: center;
-  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
-    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-  background-size: 100px 100px;
-  background-color: var(--stripe);
-}
-
 .subscriptionMsg {
   color: yellowgreen;
-}
-
-ion-header {
-  background-color: #373b5e;
 }
 
 .emailInput {
@@ -156,10 +135,6 @@ ion-header {
   margin-top: 18px;
   padding-bottom: 02px;
   min-height: 537px;
-}
-
-.ion-toggle {
-  --handle-spacing: 0px;
 }
 
 .buttons {

@@ -3,7 +3,11 @@
     <header>
       <h2 class="app-header">Featured Today</h2>
     </header>
-    <Search :search="state.search" :genres="state.genres" @search="handleSearch" />
+    <Search
+      :search="state.search"
+      :genres="state.genres"
+      @search="handleSearch"
+    />
     <p class="app-intro">Sharing a few of our favourite movies</p>
     <div class="movies">
       <Movie v-for="movie in filteredMovies" :movie="movie" :key="movie.Id" />
