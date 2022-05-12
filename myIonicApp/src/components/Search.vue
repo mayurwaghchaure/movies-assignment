@@ -28,7 +28,6 @@ export default {
     IonSelectOption,
   },
   setup(props, { emit }) {
-    //const movieTitle = ref(props.search);
     const movieGenre = ref(props.search);
     return {
       movieGenre,
@@ -51,5 +50,6 @@ export default {
   max-width: 200px;
   border-radius: 5px;
   margin: auto;
+  color:blue;
 }
 </style>
